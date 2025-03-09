@@ -11,7 +11,7 @@ const LoginSignup = () => {
             <div className="text">Sign up</div>
             <div className="underline"></div>
       </div>
-      <div className="inputs"></div>
+<div className="inputs">
       <div className="input">
             <img src={user_icon} alt=" "/>
             <input type="text" />
@@ -23,6 +23,17 @@ const LoginSignup = () => {
       <div className="input">
             <img src={password_icon} alt=" "/>
             <input type="password" />
+      </div>
+</div>
+      <div className="frogotPassword">Lost Password <span>Clik Here!</span></div>
+
+      
+      
+
+      <div className="submitContainer">
+            <div className="submit">Sign up</div>
+            <div className="submit">Login</div>
+
       </div>
       
     </div>
