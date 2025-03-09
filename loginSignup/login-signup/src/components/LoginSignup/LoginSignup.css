@@ -73,3 +73,16 @@
       gap: 30px;
       margin: 60px auto;
 }
+.submit{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 220px;
+      height: 60px;
+      color: #fff;
+      background: #4c00b4;
+      border-radius:50px;
+      font-size: 20px;
+      cursor: pointer;
+
+}
