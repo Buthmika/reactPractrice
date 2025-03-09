@@ -5,6 +5,7 @@
       margin-top: 200px;
       background: #fff;
       padding-bottom: 30px;
+      width: 600px;
       
 }
 .header{
@@ -56,4 +57,19 @@
       outline: none;
       color: #797979;
       font-size: 19px;
+}
+.frogotPassword{
+      padding-left: 62px;
+      margin-top: 27px;
+      color: #797979;
+      font-size: 19px;
+}
+.frogotPassword span{
+     color: #3c009d;
+     cursor: pointer;
+}
+.submitContainer{
+      display: flex;
+      gap: 30px;
+      margin: 60px auto;
 }
