@@ -5,7 +5,7 @@ import email_icon from '../Assets/email.png';
 import password_icon from '../Assets/password.png';
 
 const LoginSignup = () => {
-      const[action,setAction]=useState("signup")
+      const[action,setAction]=useState("signup");
   return (
     <div className='container'>
       <div className="header">
