@@ -32,7 +32,7 @@ const LoginSignup = () => {
       
 
       <div className="submitContainer">
-            <div className="submit">Sign up</div>
+            <div className={action==="Login"?"submit gray":"submit"}>submit">Sign up</div>
             <div className="submit">Login</div>
 
       </div>
