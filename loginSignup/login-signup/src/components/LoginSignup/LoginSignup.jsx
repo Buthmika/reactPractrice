@@ -1,4 +1,4 @@
-import React, { use } from 'react'
+import React, { useState } from 'react'
 import './LoginSignup.css'
 import user_icon from '../Assets/person.png';
 import email_icon from '../Assets/email.png';
@@ -32,8 +32,8 @@ const LoginSignup = () => {
       
 
       <div className="submitContainer">
-            <div className={action==="Login"?"submit gray":"submit"}>submit">Sign up</div>
-            <div className="submit">Login</div>
+            <div className={action==="Login"?"submit gray":"submit"}>Sign up</div>
+            <div className={action==="Sign Up"?"submit gray":"submit"}>Login</div>
 
       </div>
       
