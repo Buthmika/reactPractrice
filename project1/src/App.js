@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <h1>This is my first react project</h1>
       <PartOne/>
+      <PartOne/>
     
     </div>
   );
