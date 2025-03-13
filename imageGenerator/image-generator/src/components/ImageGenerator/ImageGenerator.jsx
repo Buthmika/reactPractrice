@@ -7,7 +7,7 @@ import defaultImage from '../Assets/default_image.svg';
 const ImageGenerator = () => {
   return (
     <div className='aiImageGenerator'>
-      <div className="header">Ai Image <span>Generator</span></div>
+      <div className="header">AI Image <span>Generator</span></div>
       <div className="imgLoading">
             <div className="image"><img src={defaultImage} alt="" /></div>
       </div>
