@@ -7,8 +7,8 @@ export default function Home() {
     <div>
       <h1>Home Page</h1>
       <TopBox food="Kottu"/ >
-      <TopBox food="Kottu"/>
-      <TopBox food="Kottu"/>
+      <TopBox food="Rice"/>
+      <TopBox food="Noodles"/>
       
     </div>
   )
