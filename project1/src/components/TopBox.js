@@ -5,7 +5,7 @@ export default function TopBox() {
   return (
     <div>
       <div className='topicBox'>
-            <span className='text'>{topic}</span>
+            <span className='text'>{alert("Hello world")}</span>
       </div>
     </div>
   )
