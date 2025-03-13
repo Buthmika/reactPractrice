@@ -8,7 +8,7 @@ const ImageGenerator = () => {
   return (
     <div className='aiImageGenerator'>
       <div className="header">AI Image <span>Generator</span></div>
-      <div className="imgLoading">
+      <div className="imageLoading">
             <div className="image"><img src={defaultImage} alt="" /></div>
       </div>
     </div>

@@ -18,3 +18,10 @@
       color: #DE1B89;
       font-weight: 600;
 }
+.imageLoading{
+      display: flex;
+      flex-direction: column;
+}
+.imageLoading img{
+      width: 512px;
+}
