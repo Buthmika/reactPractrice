@@ -5,7 +5,9 @@ export default function TopBox(props) {
   return (
     <div>
       <div className='topicBox'>
-            <span className='text'>Food is {props.food}</span>
+            <span className='text'>Food is {props.food} the price
+              is {props.price}</span>
+            
       </div>
     </div>
   )
