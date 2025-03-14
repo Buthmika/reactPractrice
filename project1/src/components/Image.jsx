@@ -1,9 +1,12 @@
 import React from 'react'
+import reactImage from '../Assets/image2.png'
 
 export default function Image() {
   return (
     <div>
-      <h1>Hi Image</h1>
+      <img src="download.png" alt="viteLogo" />
+      <img src={reactImage} alt="" />
+
     </div>
   )
 }
