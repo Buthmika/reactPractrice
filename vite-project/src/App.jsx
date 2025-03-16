@@ -4,6 +4,7 @@ function App() {
   const secondName="Menushan"
   const surName="Dampitige";
   const a=10;
+  const arr=["Orange","Apple","Mango"]
   const getFunction=(f,m,s)=>{
       return `${f} ${m} ${s}`;
   }
@@ -15,6 +16,7 @@ function App() {
         <p>{`${firstName}  ${secondName}`} {5*a}</p>
         <p>{a>50?"greater":"lesser"}</p>
         <p>Full name {getFunction("Methula","Sethmika","Dampitige")}</p>
+        <p>{surName} is like {arr[0]}</p>
       </div>
     </>
   )
