@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function Arraymap({nameList}) {
   return (
     <div>
@@ -12,6 +13,15 @@ function Arraymap({nameList}) {
                         
                   }
                   
+            </ul>
+            <h1>Number List(Map)</h1>
+            <ul>
+                {
+                  nameList.map((numbers,index)=>{
+                        return <li key={index}>{numbers}</li>
+                  })
+                        
+                  }
             </ul>
     </div>
   )
