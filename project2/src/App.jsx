@@ -16,7 +16,7 @@ function App() {
       <h1>hi</h1>
       <ArrayMap nameList={names}></ArrayMap>
       <ArrayFilter nameList={names}></ArrayFilter>
-      <ArrayReduce></ArrayReduce>
+      <ArrayReduce numberList={numbers}></ArrayReduce>
     </>
   )
 }
