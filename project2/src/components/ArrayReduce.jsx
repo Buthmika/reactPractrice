@@ -1,7 +1,7 @@
 import React from 'react'
 
 function ArrayReduce({numberList}) {
-      const sum=numberList.reduce((total,num)=>(total+num))
+      const sum=numberList.reduce((total,num)=>(total+num));
   return (
     <div>
             <h1>Reduced Number List(Reduce)</h1>
@@ -16,6 +16,8 @@ function ArrayReduce({numberList}) {
           
         }
       </ul>
+      <hr />
+      <p>{sum}</p>
     </div>
   )
 }
