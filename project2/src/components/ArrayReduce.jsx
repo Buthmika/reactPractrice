@@ -1,13 +1,12 @@
 import React from 'react'
 
-function ArrayReduce({nameList}) {
-      const filterdNames=nameList.filter((name)=>(name.startsWith('A')));
+function ArrayReduce({numberList}) {
   return (
     <div>
-            <h1>Filterd Name List(Filter)(Map)</h1>
+            <h1>Reduced Number List(Reduce)</h1>
       <ul>
         {
-          filterdNames.map((name,index)=>{
+          numberList.map((name,index)=>{
             return(
               <li key={index}>{name}</li>
             )
