@@ -7,8 +7,6 @@ import ArrayMap from './components/ArrayMap'
 import ArrayReduce from './components/ArrayReduce';
 const names=['React','Vue','Angular','Svelte','Ember'];
 const numbers=[1,2,3,4,5,6,7,8,9,10];
-const numbers2=[1,2,3,4,5,6,7,8,9,10];
-const numbers3=[1,2,3,4,5,6,7,8,9,10];
 
 
 function App() {
