@@ -3,6 +3,7 @@
 
 import './App.css'
 import ArrayFilter from './components/ArrayFilter';
+import ArrayForEach from './components/ArrayForEach';
 import ArrayMap from './components/ArrayMap'
 import ArrayReduce from './components/ArrayReduce';
 const names=['React','Vue','Angular','Svelte','Ember'];
@@ -18,6 +19,7 @@ function App() {
       <ArrayMap nameList={names}></ArrayMap>
       <ArrayFilter nameList={names}></ArrayFilter>
       <ArrayReduce numberList={numbers}></ArrayReduce>
+      <ArrayForEach></ArrayForEach>
     </>
   )
 }
