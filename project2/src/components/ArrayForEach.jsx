@@ -1,6 +1,7 @@
 import React from 'react'
 
 function ArrayForEach({nameList}) {
+      const newNameList=[]
   return (
     <div>
       <hr />
