@@ -19,7 +19,7 @@ function App() {
       <ArrayMap nameList={names}></ArrayMap>
       <ArrayFilter nameList={names}></ArrayFilter>
       <ArrayReduce numberList={numbers}></ArrayReduce>
-      <ArrayForEach></ArrayForEach>
+      <ArrayForEach nameList={names}></ArrayForEach>
     </>
   )
 }
