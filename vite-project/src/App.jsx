@@ -1,7 +1,7 @@
 import './App.css'
 import Arraymap from './Components/Arraymap'
 import ArrayFilter from './Components/ArrayFilter'
-const name=['React','Vue','Angular','Svelte','Ember'];
+// const name=['React','Vue','Angular','Svelte','Ember'];
 // const numbers=[1,2,3,4,5,6,7,8,9,10];
 function App() {
   
@@ -11,8 +11,7 @@ function App() {
     <>
       <div className="cont">
         <h1>React App</h1>
-        <Arraymap nameList={name}/>
-        <ArrayFilter nameList={name}/>
+       
 
         
       </div>
