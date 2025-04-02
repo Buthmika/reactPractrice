@@ -1,9 +1,9 @@
 import React from 'react'
 
-function ReactFragment() {
+function ReactFragment({item}) {
   return (
     <div>
-      <h1>buthmika</h1>
+      
     </div>
   )
 }
