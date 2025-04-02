@@ -3,6 +3,7 @@
 
 import './App.css'
 import ArrayFilter from './components/ArrayFilter';
+import ArrayFind from './components/ArrayFind';
 import ArrayForEach from './components/ArrayForEach';
 import ArrayMap from './components/ArrayMap'
 import ArrayReduce from './components/ArrayReduce';
@@ -18,8 +19,10 @@ function App() {
       <h1>hi</h1>
       <ArrayMap nameList={names}></ArrayMap>
       <ArrayFilter nameList={names}></ArrayFilter>
-      <ArrayReduce numberList={numbers}></ArrayReduce>
+      {/* <ArrayReduce numberList={numbers}></ArrayReduce> */}
       <ArrayForEach nameList={names}></ArrayForEach>
+      <ArrayFind></ArrayFind>
+
     </>
   )
 }
