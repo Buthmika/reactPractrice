@@ -1,5 +1,6 @@
 
 import './App.css'
+import OrderdList from './components/OrderdList'
 import ReactFragment from './components/ReactFragment'
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
   return (
     <>
       <h1>ho</h1>
-      <ReactFragment></ReactFragment>
+      <ReactFragment  itemList={nameList}></ReactFragment>
+      <OrderdList itemList={nameList}></OrderdList>
     </>
   )
 }
