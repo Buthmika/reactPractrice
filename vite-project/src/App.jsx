@@ -12,7 +12,7 @@ function App() {
     <>
       <div className="cont">
         <h1>React App</h1>
-        <ReactFragment></ReactFragment>
+        
        
 
         
