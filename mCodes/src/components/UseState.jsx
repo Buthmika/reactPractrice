@@ -15,8 +15,11 @@ function UseState() {
             setcount(count+1)
             
       }
+     
       useEffect(()=>{
             console.log("useEffect")
+            
+
 
       },[])
   return (
