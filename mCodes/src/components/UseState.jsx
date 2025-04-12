@@ -1,11 +1,9 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 
 function UseState() {
-      // let num1=2
       const[num1,setnum1]=useState(2)
       const[count,setcount]=useState(0)
       function handleClick() {
-            // num1=3
             setnum1(3)
             
       }
@@ -17,6 +15,10 @@ function UseState() {
             setcount(count+1)
             
       }
+      useEffect(()=>{
+            console.log("useEffect")
+
+      },[])
   return (
     <div>
       <div className="wrapper">
