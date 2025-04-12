@@ -21,7 +21,7 @@ function UseState() {
             
 
 
-      },[])
+      },[num1,count])
   return (
     <div>
       <div className="wrapper">
