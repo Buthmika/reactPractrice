@@ -15,6 +15,7 @@ function Login() {
       });
       setMessage(res.data.message);
     } catch (err) {
+      console.error(err);
       setMessage('Login failed');
     }
   };
